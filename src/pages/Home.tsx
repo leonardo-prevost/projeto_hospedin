@@ -33,6 +33,7 @@ export function Home() {
           </a>
           <strong>Comodidades do hotel</strong>
           <div id="convenience">
+            
             <span>
               <RiWifiLine /> Wi-Fi gratuito
             </span>
