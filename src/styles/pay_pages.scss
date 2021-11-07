@@ -1,0 +1,367 @@
+#page {
+    display: flex;
+    padding: 120px 244px 0px 244px;
+  
+    #user_data {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+  
+      .title {
+        display: flex;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+  
+        line-height: 36px;
+  
+        color: #29415e;
+      }
+  
+      form {
+        .title_data {
+          margin-top: 30px;
+          font-family: "Poppins", sans-serif;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 36px;
+  
+          color: #29415e;
+        }
+  
+        #text {
+          line-height: 20px;
+        }
+  
+        p {
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          color: #536580;
+        }
+  
+        input {
+          font-family: "Roboto", sans-serif;
+          font-size: 20px;
+  
+          padding: 10px;
+          width: 463px;
+          height: 56px;
+          margin-top: 5px;
+          box-sizing: border-box;
+          border-radius: 4px;
+  
+          border: 1px solid #cfd9e7;
+          background: #fff;
+        }
+  
+        #placeholder-text {
+          text-align: center;
+        }
+  
+        #user_card {
+          display: flex;
+          #holder {
+            width: 255px;
+            height: 56px;
+            margin-right: 16px;
+          }
+  
+          #validity {
+            width: 96px;
+            height: 56px;
+  
+            box-sizing: border-box;
+            border-radius: 4px;
+            margin-right: 16px;
+  
+            border: 1px solid #cfd9e7;
+            background: #ffffff;
+          }
+  
+          #CVC {
+            width: 80px;
+            height: 56px;
+          }
+        }
+  
+        input[name="name"]::-webkit-input-placeholder {
+          font-family: "Roboto", sans-serif;
+          font-size: 18px;
+          line-height: 21, 09px;
+  
+          text-align: center;
+  
+          color: #bfc6d0;
+        }
+  
+        input[name="number"]::-webkit-input-placeholder {
+          font-family: "Roboto", sans-serif;
+          font-size: 18px;
+          line-height: 21, 09px;
+  
+          text-align: center;
+  
+          color: #bfc6d0;
+        }
+  
+        input[name="validity"]::-webkit-input-placeholder {
+          font-family: "Roboto", sans-serif;
+          font-size: 18px;
+          line-height: 21, 09px;
+  
+          text-align: center;
+  
+          color: #bfc6d0;
+        }
+  
+        input[name="cvc"]::-webkit-input-placeholder {
+          font-family: "Roboto", sans-serif;
+          font-size: 18px;
+          line-height: 21, 09px;
+  
+          text-align: center;
+  
+          color: #bfc6d0;
+        }
+  
+        label {
+          font-family: "Poppins", sans-serif; //colocar global
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+          color: #29415e;
+  
+          > svg {
+            position: absolute;
+            left: 260px;
+            top: 525px;
+          }
+  
+          span {
+            display: flex;
+            color: #f10a0a;
+          }
+  
+          p {
+            margin-top: 10px;
+            display: flex;
+            font-family: "Poppins", sans-serif; //colocar global
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            color: #29415e;
+          }
+        }
+  
+        #arrow {
+          width: 463px;
+          position: relative;
+          bottom: 30px;
+  
+          transition: all 0.4s;
+          border-radius: 4px;
+  
+          #control-drop-down {
+            a {
+              > svg {
+                position: relative;
+                bottom: 10px;
+                left: 420px;
+  
+                color: #29415e;
+              }
+            }
+          }
+  
+          .parcel {
+            list-style: none;
+            width: 463px;
+  
+            border: 1px solid #cfd9e7;
+            background: #fff;
+  
+            transition: all 0.4s;
+            border-radius: 4px;
+  
+            .parcel_item {
+              text-align: center;
+              text-transform: uppercase;
+              a {
+                text-decoration: none;
+                color: #29415e;
+              }
+            }
+            .parcel_item:hover {
+              background-color: #cfd9e7;
+            }
+          }
+  
+          .parcel.active {
+            // max-height:150px;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  
+    #reserve_box {
+      flex: 1;
+      display: flex;
+  
+      flex-direction: column;
+  
+      position: relative;
+      bottom: 20px;
+  
+      #box {
+        padding: 30px;
+        #box_color {
+          padding: 15px;
+          border-radius: 4px;
+  
+          background: #f3f6fd;
+  
+          .sub_title {
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 27px;
+  
+            color: #29415e;
+          }
+          .second_sub_title {
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+  
+            line-height: 24px;
+            margin-top: 15px;
+  
+            color: #29415e;
+          }
+  
+          p {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+  
+            color: #536580;
+          }
+        }
+  
+        #resume_box {
+          margin-top: 24px;
+  
+          border: 1px solid #cfd9e7;
+          box-sizing: border-box;
+          border-radius: 4px;
+  
+          background: #ffffff;
+  
+          .sub_title {
+            font-family: "Poppins", sans-serif; //colocar global
+            font-weight: 700;
+            font-size: 18px;
+  
+            line-height: 27px;
+            padding: 15px;
+  
+            color: #29415e;
+          }
+  
+          #room {
+            display: flex;
+            justify-content: space-between;
+  
+            p {
+              font-family: "Roboto", sans-serif; //colocar global
+              font-size: 16px;
+              font-weight: 400;
+  
+              line-height: 24px;
+              padding: 15px;
+  
+              color: #536580;
+            }
+          }
+  
+          p {
+            font-family: "Roboto", sans-serif; //colocar global
+            font-size: 16px;
+            font-weight: 400;
+  
+            line-height: 24px;
+            padding: 15px;
+  
+            color: #536580;
+          }
+  
+          #final_price {
+            display: flex;
+            justify-content: space-between;
+            background: #f3f6fd;
+  
+            span {
+              font-family: "Roboto", sans-serif;
+              font-size: 18px;
+              font-weight: 700;
+  
+              padding: 15px;
+              line-height: 27px;
+  
+              color: #29415e;
+            }
+            .sub_title {
+              font-family: "Poppins", sans-serif;
+              font-weight: 700;
+              font-size: 18px;
+  
+              line-height: 27px;
+              padding: 15px;
+  
+              color: #29415e;
+            }
+          }
+  
+          #italic {
+            font-family: "Roboto", sans-serif; //colocar global
+            font-size: 16px;
+            font-weight: 400;
+            font-style: italic;
+  
+            line-height: 24px;
+  
+            background: #f3f6fd;
+          }
+        }
+      }
+  
+      Button {
+        width: 196px;
+        height: 63px;
+  
+        font-family: "Poppins", sans-serif; //colocar global
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+  
+        color: #29415e;
+  
+        position: relative;
+        left: 300px;
+        top: 60px;
+  
+        a {
+          text-decoration: none;
+  
+          font-family: "Poppins", sans-serif; //colocar global
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 27px;
+  
+          color: #29415e;
+        }
+      }
+    }
+  }
+  

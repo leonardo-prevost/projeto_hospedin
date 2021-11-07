@@ -1,3 +1,49 @@
+## 💻HOSPEDIN
+
+
+✨FIRST PAGE✨
+
+HEADER
+![header](https://user-images.githubusercontent.com/46681477/140629225-f3759217-62e4-48a8-92c0-ae15293d5288.png)
+
+
+MAIN
+![main](https://user-images.githubusercontent.com/46681477/140629252-fb58889e-c833-4e9a-aa32-edb372fcffc2.png)
+
+
+✨SECOND PAGE✨
+
+PAY-PAGE
+![pay-page](https://user-images.githubusercontent.com/46681477/140629282-b1fd913c-be24-4eb9-bd80-2d6a26e8ec5d.png)
+
+
+✨THIRD PAGE✨
+
+FINISH-PAGE
+![finish-page](https://user-images.githubusercontent.com/46681477/140629437-9c0a13df-f812-42a5-9a4d-e737ed6262f5.png)
+
+
+
+Technologies
+
+✔REACTJS ✔JAVASCRIPT ✔TYPESCRIPT ✔HTML5 ✔SCSS
+
+
+
+
+
+
+
+_________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

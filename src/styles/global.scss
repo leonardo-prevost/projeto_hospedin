@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    header{
+        padding: 120px 244px 0px 244px;
+    }
+}
+
+main {
+    flex: 1;
+    padding: 0;
+    background: #F3F6FD;
+    width:100%;
+
+    #main{
+        padding: 0px 244px 120px 244px;
+    }
+}
+
