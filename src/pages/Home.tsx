@@ -3,7 +3,7 @@ import React from "react";
 import "../styles/home.scss";
 
 import map from "../assets/images/map.png";
-import { RiWifiLine } from 'react-icons/ri';
+
 import { FiCoffee } from "react-icons/fi";
 import { GiTowel } from "react-icons/gi";
 import { MdOutlinePool } from "react-icons/md";
@@ -33,9 +33,9 @@ export function Home() {
           </a>
           <strong>Comodidades do hotel</strong>
           <div id="convenience">
-            
+
             <span>
-              <RiWifiLine /> Wi-Fi gratuito
+               Wi-Fi gratuito
             </span>
             <span>
               <FiCoffee /> Restaurante
